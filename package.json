@@ -1,0 +1,48 @@
+{
+  "name": "glsl-dither",
+  "version": "1.0.0",
+  "description": "Bayer matrix dithering in GLSL",
+  "main": "index.glsl",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd example && beefy index.js --open",
+    "bundle": "browserify example/index.js > bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "dependencies": {
+    "glsl-luma": "^1.0.1"
+  },
+  "devDependencies": {
+    "a-big-triangle": "0.0.0",
+    "gl-context": "^0.1.0",
+    "gl-now": "^1.3.1",
+    "gl-texture2d": "^1.0.1",
+    "glslify": "^1.4.0",
+    "lena": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/glsl-dither.git"
+  },
+  "keywords": [
+    "glsl",
+    "bayer",
+    "matrix",
+    "dither",
+    "glsl",
+    "glslify",
+    "webgl"
+  ],
+  "homepage": "https://github.com/hughsk/glsl-dither",
+  "bugs": {
+    "url": "https://github.com/hughsk/glsl-dither/issues"
+  },
+  "directories": {
+    "example": "example"
+  }
+}
