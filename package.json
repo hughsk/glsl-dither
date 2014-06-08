@@ -1,6 +1,6 @@
 {
   "name": "glsl-dither",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bayer matrix dithering in GLSL",
   "main": "8x8.glsl",
   "license": "MIT",
