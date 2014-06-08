@@ -2,7 +2,7 @@
   "name": "glsl-dither",
   "version": "1.0.0",
   "description": "Bayer matrix dithering in GLSL",
-  "main": "index.glsl",
+  "main": "8x8.glsl",
   "license": "MIT",
   "scripts": {
     "start": "cd example && beefy index.js --open",
